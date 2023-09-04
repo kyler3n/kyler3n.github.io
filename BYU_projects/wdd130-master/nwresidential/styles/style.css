@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: transparent;
+    margin: -10px auto;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    text-align: center;
+    color: #C42434;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    color: #C42434;
+}
+
+.logo {
+    padding-left: 75px;
+    width: 180px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+p {
+    font-family: 'Lora', Helvetica, sans-serif;
+    text-align: center;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.kitchen img, .bathroom img, .addition img {
+    border: solid;
+    border-color: #F5B841;
+}
+
+.kitchen, .bathroom, .addition  {
+    margin: auto;
+}
+
+button {
+    display: block;
+    font-size: 15px;
+    font-family: 'Lora', Helvetica, serif;
+    background-color: #C42434;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 8px auto; 
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px darkgray
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr;
+    margin-top: -100px;
+    max-height: 500px;
+}
+
+#hero-img {
+    width: 100%;
+    grid-row: 1/3;
+    filter: grayscale(100%);
+    max-height: 500px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+    max-height: 500px;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 100px;
+    max-height: 500px;
+}
+
+#hero-msg h1 {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2.8em;
+}
+
+#hero-msg h3 {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.button-box {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.getstarted {
+    font-size: 18px;
+    font-family: 'Lora', Helvetica, serif;
+    background-color: #C42434;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px; 
+    border-radius: 2px;
+    box-shadow: 5px 5px 10px black
+}
+
+.box1 h1 {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-size: 4em;
+    margin-left: 100px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.box1 p {
+    font-family: 'Lora', Helvetica, serif;
+    font-size: 1.6em;
+    margin-left: 100px;
+    text-align: left;
+    padding-bottom: 30px;
+    width: 50%
+}
+
+.box1 ul {
+    font-family: 'Lora', Helvetica, serif;
+    font-size: 1.6em;
+    margin-left: 100px;
+    text-align: left;
+    padding-bottom: 30px;
+    width: 50%
+}
+
+footer {
+    display: flex;
+    grid-template-columns: auto 200px;
+    margin: auto;
+    background-color: #1A1C4B;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    padding: 15px;
+}
+
+footer a {
+    font-family: 'Lora', Helvetica, serif;
+    color: white;
+    margin: auto;
+    justify-content: space-around;
+}
+
+footer p {
+    font-family: 'Lora', Helvetica, serif;
+    margin: auto;
+}
+
+/* ABOUT PAGE */
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+.about-grid p {
+    grid-column: 1/2;
+    padding: 15px 15px;
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Lora', Helvetica, serif;
+    font-size: 1.6em;
+}
+
+.about-grid h1 {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-size: 4em;
+    margin-left: 100px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+#hero-img2 {
+    width: 100%;
+    grid-row: 1/3;
+    filter: grayscale(100%);
+    max-height: 100px;
+}
+
+.about-title {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-size: 4em;
+    margin-left: 100px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.right-p {
+    margin: auto 100px auto 0;
+}
+
+.right-img {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin: auto;
+}
+
+.left-p {
+    margin: auto 0 auto 100px;
+}
+
+.left-img {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin: 15px auto;
+}
+
+/* CONSULTATIONS PAGE */
+
+.consultations-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    text-align: left;
+    line-height: 30px;
+    font-family: 'Lora', Helvetica, serif;
+    font-size: 1.6em;
+}
+
+.list {
+    grid-column: 1/2;
+    margin: auto;
+}
+
+
+.consultations-title {
+    font-family: 'Barlow Condensed', Helvetica, sans-serif;
+    font-size: 4em;
+    margin-left: 100px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.quote {
+    font-style: italic;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin: auto auto 50px auto;
+    padding: 20px;
+    max-width: 75%;
+    text-align: center;
+}
+
+p {
+    margin-left: 100px;
+    text-align: left;
+}
+
+.map {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    border: solid #F5B841;
+    margin: auto;
+}
+
+.form-back {
+    width: 100%;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    z-index: -1;
+    max-height: 1000px;
+}
+
+#feedback {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin: auto;
+    width: 70%;
+    background-color: hsla(240, 5%, 83%, 0.85);
+}
+
+.form h2 {
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+  }
+
+.form ul{
+    padding: 15px;
+    list-style: none;
+}
+
+.consultations-footer {
+    margin: 0;
+}
+
+input[type=text], [type=email], select {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+.form li{
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+}
+
+.form input {
+    width: 100%;
+}
